@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from __future__ import print_function
+
 from os import path
 import json
-
-from __future__ import print_function
 
 version = '0.1'
 
