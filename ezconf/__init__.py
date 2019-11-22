@@ -4,6 +4,8 @@
 from os import path
 import json
 
+from __future__ import print_function
+
 version = '0.1'
 
 class ConfigFile(object):
@@ -62,7 +64,7 @@ class ConfigFile(object):
         try:
             for i in range(0, num_parts-1):
                 part = parts[i]
-                print part
+                print(part)
                 cur_dict = cur_dict[part]
 
             return cur_dict[parts[num_parts-1]]
