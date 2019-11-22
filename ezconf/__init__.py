@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from __future__ import print_function
-
 from os import path
 import json
 
@@ -64,7 +62,6 @@ class ConfigFile(object):
         try:
             for i in range(0, num_parts-1):
                 part = parts[i]
-                print(part)
                 cur_dict = cur_dict[part]
 
             return cur_dict[parts[num_parts-1]]
